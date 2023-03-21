@@ -1,0 +1,7 @@
+﻿<Application
+    x:Class="NumerosRomanos1.UWP.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:NumerosRomanos1.UWP">
+
+</Application>

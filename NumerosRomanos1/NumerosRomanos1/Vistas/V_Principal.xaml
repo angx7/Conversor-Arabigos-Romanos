@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/desing"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="NumerosRomanos1.Vistas.V_Principal"
+             BackgroundColor="#1b3d62">
+    <ContentPage.Content>
+        <StackLayout Padding="40" VerticalOptions="Center" HorizontalOptions="FillAndExpand">
+            <Label Text="Conversor de números arabigos a romanos"
+                   HorizontalOptions="FillAndExpand" 
+                   TextColor="White"
+                   FontAttributes="Bold"
+                   FontSize="26"
+                   HorizontalTextAlignment="Center"/>
+            <Entry Placeholder="Ingrese un valor entre 0 y 3999"
+                   x:Name="txtNumero"
+                   TextColor="White"
+                   PlaceholderColor="Gray"
+                   FontSize="20"
+                   Keyboard="Numeric"
+                   HorizontalTextAlignment="Center"/>
+            <Button x:Name="btnConvertir"
+                   VerticalOptions="Fill"
+                   Text="Convertir"
+                   TextColor="White"
+                   BackgroundColor="Transparent"
+                   BorderColor="Black"
+                   BorderWidth="1.5"
+                   CornerRadius="50"/>
+            <Label x:Name="lblMensaje"
+                   HorizontalOptions="Center"
+                   TextColor="WhiteSmoke"
+                   FontSize="20"
+                   FontAttributes="Bold"
+                   Margin="15"/>
+            <Button x:Name="btnLimpiar"
+                   VerticalOptions="Fill"
+                   Text="Limpiar"
+                   TextColor="White"
+                   BackgroundColor="Transparent"
+                   BorderColor="Black"
+                   BorderWidth="1.5"
+                   CornerRadius="50"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
